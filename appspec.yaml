@@ -3,7 +3,7 @@ Resources:
   -TargetService:
     Type: AWS::ECS::Service
     Properties:
-      TaskDefinition: arn:aws:ecs:ap-south-1:610018615348:task-definition/disbursement:1
+      TaskDefinition: "arn:aws:ecs:ap-south-1:610018615348:task-definition/disbursement:1"
       LoadBalancerInfo:
         ContainerName: "disbursement"
         ContainerPort: "8083"
